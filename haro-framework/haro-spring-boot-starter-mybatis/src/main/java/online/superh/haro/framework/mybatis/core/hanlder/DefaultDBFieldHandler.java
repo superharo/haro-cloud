@@ -22,7 +22,17 @@ public class DefaultDBFieldHandler implements MetaObjectHandler {
     @Override
     public void insertFill(MetaObject metaObject) {
         if (Objects.nonNull(metaObject) && metaObject.getOriginalObject() instanceof BaseDO) {
+            BaseDO baseDO = (BaseDO) metaObject.getOriginalObject();
 
+            LocalDateTime current = LocalDateTime.now();
+            // 创建时间为空，则以当前时间为插入时间
+            if (Objects.isNull(baseDO.getCreateTime())) {
+                baseDO.setCreateTime(current);
+            }
+            // 更新时间为空，则以当前时间为更新时间
+            if (Objects.isNull(baseDO.getUpdateTime())) {
+                baseDO.setUpdateTime(current);
+            }
         }
     }
 
