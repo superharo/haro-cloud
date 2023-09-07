@@ -1,6 +1,7 @@
 package online.superh.haro.framework.mybatis.core.hanlder;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
+import online.superh.haro.framework.mybatis.core.dataobject.BaseDO;
 import online.superh.haro.framework.web.core.util.WebFrameworkUtils;
 import org.apache.ibatis.reflection.MetaObject;
 
@@ -20,7 +21,9 @@ public class DefaultDBFieldHandler implements MetaObjectHandler {
 
     @Override
     public void insertFill(MetaObject metaObject) {
+        if (Objects.nonNull(metaObject) && metaObject.getOriginalObject() instanceof BaseDO) {
 
+        }
     }
 
     @Override
