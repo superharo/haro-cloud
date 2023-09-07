@@ -1,8 +1,8 @@
 package online.superh.haro.framework.banner.config;
 
 import online.superh.haro.framework.banner.core.BannerApplicationRunner;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 /**
  * @version: 1.0
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @description:
  * @date: 2023-08-24 16:32
  */
-@Configuration(proxyBeanMethods = false)
+@AutoConfiguration
 public class HaroBannerAutoConfiguration {
 
     @Bean

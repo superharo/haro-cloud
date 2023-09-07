@@ -25,5 +25,8 @@
         <module>haro-common</module>
         <module>haro-spring-boot-starter-banner</module>
         <module>haro-spring-boot-starter-rpc</module>
+        <module>haro-spring-boot-starter-web</module>
+        <module>haro-springboot-stater-security</module>
+        <module>haro-spring-boot-starter-mybatis</module>
     </modules>
 </project>

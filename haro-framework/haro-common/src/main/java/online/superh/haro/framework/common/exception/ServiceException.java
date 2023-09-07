@@ -9,7 +9,7 @@ import lombok.Data;
  * @date: 2023-08-24 15:06
  */
 @Data
-public class ServiceException {
+public class ServiceException extends RuntimeException{
 
     private Integer code;
 
