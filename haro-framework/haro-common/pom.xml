@@ -68,6 +68,13 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
+        <!-- spring-boot-starter-web依赖于spring-boot-starter，而spring-boot-starter又依赖于spring-boot-starter-logging，后者包含了logback和slf4j-ap -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <scope>provided</scope> <!-- 设置为 provided，只有工具类需要使用到 -->
+        </dependency>
+
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
