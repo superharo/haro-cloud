@@ -28,5 +28,6 @@
         <module>haro-spring-boot-starter-web</module>
         <module>haro-springboot-stater-security</module>
         <module>haro-spring-boot-starter-mybatis</module>
+        <module>haro-spring-boot-starter-redis</module>
     </modules>
 </project>
