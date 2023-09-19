@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/haro-dependencies/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haro-framework/haro-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haro-framework/haro-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/haro-framework/haro-spring-boot-protection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/haro-framework/haro-spring-boot-protection/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haro-framework/haro-spring-boot-starter-banner/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haro-framework/haro-spring-boot-starter-banner/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haro-framework/haro-spring-boot-starter-mybatis/src/main/java" charset="UTF-8" />
